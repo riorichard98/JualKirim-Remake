@@ -20,7 +20,7 @@ function App() {
       <div className="d-flex"> {/**d-flex agar masing2 page ada disebelah kanan sidebar */}
         <SideBar></SideBar> {/**merupakan komponen sidebar yang ada disebelah kiri */}
 
-        <div className="container mt-3 bg-danger"> {/**konten utama sebelah kanan , terdapat bantujual , cek tarif , awb page */}
+        <div className="ms-5 mt-3 mb-5" style={{"backgroundColor":""}}> {/**konten utama sebelah kanan , terdapat bantujual , cek tarif , awb page */}
         <Routes>
 
           {/* identifyRoute agar setiap user mengakses tanpa params akan langsung di redirect ke /bantu-jual */}
