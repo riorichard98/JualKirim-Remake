@@ -10,7 +10,7 @@ import PermintaanPage from './PermintaanPage.js'
 export default function AWBPage() {
 
   return (
-    <div className="d-flex">
+    <div>
       ini BantuJualPage
       <nav>
         <Link to="kreator">kreator</Link>
